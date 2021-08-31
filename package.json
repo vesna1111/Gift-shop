@@ -1,0 +1,31 @@
+{
+  "name": "project",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vesna1111/project.git"
+  },
+  "author": "vesna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vesna1111/project/issues"
+  },
+  "homepage": "https://github.com/vesna1111/project#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongoose": "^6.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12"
+  }
+}
