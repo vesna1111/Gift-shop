@@ -3,7 +3,8 @@ import React from 'react';
 
 function ContactScreen() {
     return (
-       <div> <section id="contact-section" style={{ 
+       <div> 
+       <div className="row top"><section id="contact-section" style={{ 
   backgroundImage: `url(${process.env.PUBLIC_URL + 'images/slajder2.jpg'})` 
 }}>
         <div class="container">
@@ -32,7 +33,7 @@ function ContactScreen() {
                 </div>
             </div>
         </div>
-    </section></div>
+    </section></div></div>
     )
 }
 export default ContactScreen;
