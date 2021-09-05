@@ -1,6 +1,7 @@
 import React from 'react';
 
 
+
 function ContactScreen() {
     return (
        <div> 
@@ -15,7 +16,7 @@ function ContactScreen() {
 
 
                 <div>
-                    <i class="fa fa-map-marker"></i><span class="form-info">  23 Boulevard Prince Henri 1724 Luxembourg </span><br/>
+                    <i class="fa fa-map-marker"></i><span class="form-info">  Bajina Basta BB ,Mandići, Zaovine Srbija </span><br/>
                     <i class="fa fa-phone"> </i><span class="form-info">+(1) 360-824-502</span><br/>
                     <i class="fa fa-envelope"></i><span class="form-info">  theproject@gmail.com</span>
                 </div>
@@ -25,7 +26,7 @@ function ContactScreen() {
                     <form>
                         <input type="text" placeholder="Your Name" required/>
                         <input type="text" placeholder="Last Name"/><br/>
-                        <input type="Email" placeholder="Email" required/><br/>
+                        <input type="Email" placeholder="Email"  required/><br/>
                         <input type="text" placeholder="Subject of this message"/><br/>
                         <textarea name="message" placeholder="Message" rows="5" required></textarea><br/>
                         <button class="submit">Send Message</button>

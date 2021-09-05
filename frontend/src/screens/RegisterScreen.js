@@ -76,6 +76,8 @@ export default function RegisterScreen(props) {
             type="password"
             id="confirmPassword"
             placeholder="Enter confirm password"
+           pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+  title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
             required
             onChange={(e)=> setConfirmPassword(e.target.value)}
           ></input>

@@ -141,9 +141,7 @@
          justify-content: center;
      }
      
-     .row.center {
-         justify-content: center;
-     }
+     
      
      .row.top {
          align-items: flex-start;
@@ -244,7 +242,7 @@
      .global {
          padding: 50px;
          color: #7b6b71;
-         margin-top: 80px;
+         margin-top: 10px;
          background-color: #f1eaea;
      }
      
@@ -267,6 +265,7 @@
      .global ul a {
          color: #7b6b71;
          text-decoration: none;
+         font-size:13px;
      }
      
      .global ul a:hover {

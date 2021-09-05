@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function SizeGuide() {
     return (<div > 
         <div className="row top">
@@ -23,7 +24,7 @@ function SizeGuide() {
                  <p>*This size chart is for reference purposes only.</p>
                 </li>
                 <li><img
-                className="large"
+                className="medium"
                 src="images/sizeguide.jpg"
                 alt="slajder"
               ></img> </li>

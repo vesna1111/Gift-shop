@@ -100,10 +100,11 @@ export default function ProductScreen(props) {
                       </li>
                       <li>
                         <div className="row">
-                          <div>Size</div>
-                          <div>
-                            <select name="size">
-                            <option value="blank"></option>
+                          <div>Choose size</div>
+                              <div>
+                                
+                            <select name="size" id="size" required>
+                            <option value=""></option>
                             <option value="xs">XS</option>
                             <option value="s">S</option>
                             <option value="m">M</option>
